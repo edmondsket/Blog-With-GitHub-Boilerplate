@@ -13,7 +13,7 @@ tags:
 excerpt: 通过adb冻结自带桌面，并默认使用当贝桌面。
 typora-root-url: ../../blog
 ---
-![g9s](/src/images/坚果G9S 最简单的精简办法——更换桌面/g9s.jpeg)
+![g9s](./images/g9s.jpeg)
 
  [notice]() 
 
