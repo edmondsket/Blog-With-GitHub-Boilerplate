@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "/Blog-With-GitHub-Boilerplate/02e697de54bc2d10d1ea4494234a6f81.json"
+            api: "/Blog-With-GitHub-Boilerplate/a5b361931157566d67065a1ef8ec99c5.json"
         }
     </script>
     
@@ -91,14 +91,16 @@
 <p>传输完成后直接安装，这时按Home键还是会回到坚果自带桌面的，请进行下一步。</p>
 <h1>二、停用自带桌面</h1>
 <p>注意：在停用前请先在自带桌面的「我的」标签夹下把屏保功能关闭
-这里要用到adb指令，首先需要开启adb调试。
-打开G9S设置→系统设置（最后一项）→焦点在「系统版本」（第一项）的时候狂点OK键5下，就可以弹出adb调试开关，把它设置为开启状态；
-准备一台电脑，连接上与G9S同样的网络，保证电脑和G9S在同一个局域网内；
-打开电脑终端，输入<code>adb devices</code>，得到G9S的局域网IP地址；
-输入 <code>adb connect [投影仪IP地址]</code>，链接上投影仪终端；
-输入 <code>adb -s [投影仪IP地址] shell</code>，进入投影仪终端；
-输入<code>pm disable-user com.jmgo.launcher</code>，停用自带桌面。
-大功告成！这时坚果自带的桌面就会自动退出，系统会自动打开仅剩的一个桌面软件，也就是我们提前安装好的当贝桌面，作为投影仪默认的桌面，再也不用浪费注意力啦。</p>
+这里要用到adb指令。</p>
+<ol>
+<li>打开G9S设置→系统设置（最后一项）→焦点在「系统版本」（第一项）的时候狂点OK键5下，就可以弹出adb调试开关，把它设置为开启状态；</li>
+<li>准备一台电脑，连接上与G9S同样的网络，保证电脑和G9S在同一个局域网内；</li>
+<li>打开电脑终端，输入<code>adb devices</code>，得到G9S的局域网IP地址；</li>
+<li>输入 <code>adb connect [投影仪IP地址]</code>，链接上投影仪终端；</li>
+<li>输入 <code>adb -s [投影仪IP地址] shell</code>，进入投影仪终端；</li>
+<li>输入<code>pm disable-user com.jmgo.launcher</code>，停用自带桌面。
+大功告成！这时坚果自带的桌面就会自动退出，系统会自动打开仅剩的一个桌面软件，也就是我们提前安装好的当贝桌面，作为投影仪默认的桌面，再也不用浪费注意力啦。</li>
+</ol>
 
             </div>
         </article>

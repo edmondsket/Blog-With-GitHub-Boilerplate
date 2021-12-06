@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/Blog-With-GitHub-Boilerplate/</id><title>帅哥Tap我</title><updated>2021-12-06T08:36:45.450184+08:06</updated><author><name>Eddie</name><email>dannew123@gmail.com</email></author><link href="/Blog-With-GitHub-Boilerplate/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/Blog-With-GitHub-Boilerplate/logo.png</logo><subtitle>过一种平替人生</subtitle><entry><id>/Blog-With-GitHub-Boilerplate/archives/typography/</id><title>Hello World!</title><updated>2021-12-06T08:36:45.450304+00:00</updated><author><name>AlanDecode</name><email>dannew123@gmail.com</email><uri>https://edmondsket.github.io</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/Blog-With-GitHub-Boilerplate/</id><title>帅哥Tap我</title><updated>2021-12-06T08:53:17.782034+08:06</updated><author><name>Eddie</name><email>dannew123@gmail.com</email></author><link href="/Blog-With-GitHub-Boilerplate/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/Blog-With-GitHub-Boilerplate/logo.png</logo><subtitle>过一种平替人生</subtitle><entry><id>/Blog-With-GitHub-Boilerplate/archives/typography/</id><title>Hello World!</title><updated>2021-12-06T08:53:17.782156+00:00</updated><author><name>AlanDecode</name><email>dannew123@gmail.com</email><uri>https://edmondsket.github.io</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -65,7 +65,7 @@ cell 1 | cell 2
 cell 3 | cell 4&lt;/p&gt;
 &lt;h2&gt;Link Card&lt;/h2&gt;
 &lt;div class="links"&gt;
-&lt;a href="https://www.imalan.cn"&gt;AlanDecode&lt;/a&gt;+(&lt;a href="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;amp;r=G&amp;amp;d="&gt;https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;amp;r=G&amp;amp;d=&lt;/a&gt;)&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/Blog-With-GitHub-Boilerplate/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/Blog-With-GitHub-Boilerplate/archives/jianguo-g9s/</id><title>坚果G9S 最简单的精简办法——更换桌面</title><updated>2021-12-06T08:36:45.450238+00:00</updated><author><name>Eddie</name><email>dannew123@gmail.com</email><uri>https://edmondsket.github.io</uri></author><content>&lt;div class="notice"&gt; 
+&lt;a href="https://www.imalan.cn"&gt;AlanDecode&lt;/a&gt;+(&lt;a href="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;amp;r=G&amp;amp;d="&gt;https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;amp;r=G&amp;amp;d=&lt;/a&gt;)&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/Blog-With-GitHub-Boilerplate/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/Blog-With-GitHub-Boilerplate/archives/jianguo-g9s/</id><title>坚果G9S 最简单的精简办法——更换桌面</title><updated>2021-12-06T08:53:17.782092+00:00</updated><author><name>Eddie</name><email>dannew123@gmail.com</email><uri>https://edmondsket.github.io</uri></author><content>&lt;div class="notice"&gt; 
 1. 停用自带桌面后貌似无法调出最近使用app的页面
 2. 屏保等设置是集成在自带桌面里的，停用后想调整需要重新启用桌面。在终端输入&lt;code&gt;pm enable com.jmgo.launcher&lt;/code&gt;就可以启用了。
 3. 教程基于个人折腾经验，请自行辨别风险。&lt;/div&gt;&lt;p&gt;()
@@ -76,12 +76,14 @@ cell 3 | cell 4&lt;/p&gt;
 &lt;p&gt;传输完成后直接安装，这时按Home键还是会回到坚果自带桌面的，请进行下一步。&lt;/p&gt;
 &lt;h1&gt;二、停用自带桌面&lt;/h1&gt;
 &lt;p&gt;注意：在停用前请先在自带桌面的「我的」标签夹下把屏保功能关闭
-这里要用到adb指令，首先需要开启adb调试。
-打开G9S设置→系统设置（最后一项）→焦点在「系统版本」（第一项）的时候狂点OK键5下，就可以弹出adb调试开关，把它设置为开启状态；
-准备一台电脑，连接上与G9S同样的网络，保证电脑和G9S在同一个局域网内；
-打开电脑终端，输入&lt;code&gt;adb devices&lt;/code&gt;，得到G9S的局域网IP地址；
-输入 &lt;code&gt;adb connect [投影仪IP地址]&lt;/code&gt;，链接上投影仪终端；
-输入 &lt;code&gt;adb -s [投影仪IP地址] shell&lt;/code&gt;，进入投影仪终端；
-输入&lt;code&gt;pm disable-user com.jmgo.launcher&lt;/code&gt;，停用自带桌面。
-大功告成！这时坚果自带的桌面就会自动退出，系统会自动打开仅剩的一个桌面软件，也就是我们提前安装好的当贝桌面，作为投影仪默认的桌面，再也不用浪费注意力啦。&lt;/p&gt;
+这里要用到adb指令。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打开G9S设置→系统设置（最后一项）→焦点在「系统版本」（第一项）的时候狂点OK键5下，就可以弹出adb调试开关，把它设置为开启状态；&lt;/li&gt;
+&lt;li&gt;准备一台电脑，连接上与G9S同样的网络，保证电脑和G9S在同一个局域网内；&lt;/li&gt;
+&lt;li&gt;打开电脑终端，输入&lt;code&gt;adb devices&lt;/code&gt;，得到G9S的局域网IP地址；&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;adb connect [投影仪IP地址]&lt;/code&gt;，链接上投影仪终端；&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;adb -s [投影仪IP地址] shell&lt;/code&gt;，进入投影仪终端；&lt;/li&gt;
+&lt;li&gt;输入&lt;code&gt;pm disable-user com.jmgo.launcher&lt;/code&gt;，停用自带桌面。
+大功告成！这时坚果自带的桌面就会自动退出，系统会自动打开仅剩的一个桌面软件，也就是我们提前安装好的当贝桌面，作为投影仪默认的桌面，再也不用浪费注意力啦。&lt;/li&gt;
+&lt;/ol&gt;
 </content><link href="/Blog-With-GitHub-Boilerplate/archives/jianguo-g9s/" rel="alternate"/><published>2021-12-06T16:23:07+08:06</published></entry></feed>
