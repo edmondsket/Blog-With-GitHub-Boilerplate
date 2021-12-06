@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 坚果G9S 最简单的精简办法——更换桌面
-slug: typography
+slug: jianguo-g9s
 date: 2021-12-06 16:23:07
 status: publish
 author: Eddie
