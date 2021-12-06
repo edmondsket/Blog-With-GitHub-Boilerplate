@@ -11,7 +11,7 @@ archives_page_size = 20
 template = {
     "name": "Galileo",
     "type": "git",
-    "url": "https://github.com/AlanDecode/Maverick-Theme-Galileo.git",
+    "url": "https://github.com/edmondsket/Maverick-Theme-Galileo.git",
     "branch": "latest"
 }
 enable_jsdelivr = {
@@ -67,7 +67,7 @@ social_links = [
     },
     {
         "name": "Weibo",
-        "url": "https://weibo.com//",
+        "url": "https://weibo.com/",
         "icon": "gi gi-weibo"
     }
 ]
