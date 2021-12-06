@@ -23,19 +23,20 @@
         }
     </script>
     
-<title>标签: 投影仪 - 帅哥Tap我</title>
+<title>坚果G9S 最简单的精简办法——更换桌面 - 帅哥Tap我</title>
 <meta name="author" content="Eddie" />
-<meta name="description" content="过一种平替人生" />
-<meta property="og:title" content="标签: 投影仪 - 帅哥Tap我" />
-<meta property="og:description" content="过一种平替人生" />
+<meta name="description" content="通过adb冻结自带桌面，并默认使用当贝桌面。" />
+<meta property="og:title" content="坚果G9S 最简单的精简办法——更换桌面 - 帅哥Tap我" />
+<meta property="og:description" content="通过adb冻结自带桌面，并默认使用当贝桌面。" />
 <meta property="og:site_name" content="帅哥Tap我" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/Blog-With-GitHub-Boilerplate/tag/投影仪/" />
-<meta property="og:image" content="帅哥Tap我" />
-<meta name="twitter:title" content="标签: 投影仪 - 帅哥Tap我" />
-<meta name="twitter:description" content="过一种平替人生" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/Blog-With-GitHub-Boilerplate/archives/jianguo-g9s/" />
+<meta property="og:image" content="" />
+<meta property="article:published_time" content="2021-12-06T16:23:07-00.00" />
+<meta name="twitter:title" content="坚果G9S 最简单的精简办法——更换桌面 - 帅哥Tap我" />
+<meta name="twitter:description" content="通过adb冻结自带桌面，并默认使用当贝桌面。" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:image" content="/Blog-With-GitHub-Boilerplate/logo.png" />
+<meta name="twitter:image" content="" />
 
 
     
@@ -63,27 +64,75 @@
             <div class="wrapper">
                 
 <main>    
-    
+    <section class="ga-section ga-content">
+        <article class="yue">
+            <h1 class="ga-post_title">坚果G9S 最简单的精简办法——更换桌面</h1>
+            <span class="ga-post_meta ga-mono">
+                <span>Eddie</span>
+                <time>
+                    2021-12-06
+                </time>
+                
+                in <a no-style class="category" href="/Blog-With-GitHub-Boilerplate/category/平替文章/">
+                    平替文章
+                </a>
+                
+                
+            </span>
+            <div class="ga-content_body">
+                <div class="notice"> 
+1. 停用自带桌面后貌似无法调出最近使用app的页面
+2. 屏保等设置是集成在自带桌面里的，停用后想调整需要重新启用桌面。在终端输入<code>pm enable com.jmgo.launcher</code>就可以启用了。
+3. 教程基于个人折腾经验，请自行辨别风险。</div><p>()
+当初买坚果G9S是看中他可以自动对齐幕布，买完发现实际用起来还挺好用的。但是我平时都用115、plex看剧，最多看看bilibili，实在接受不了一开机满屏的会员节目，目前也没有适合的G9S净化系统可以刷，所以打算换掉自带的桌面就可以了。由于我是小白，以前折腾这些东西太多怕了，所以就找了一个最简单的办法，大大轻喷。</p>
+<h1>一、安装心仪的桌面</h1>
+<p>我测试了 ATV Launcher 和当贝桌面，ATV Launcher 会出现app列表和背景图不显示的问题，就直接用了净化版的当贝桌面。</p>
+<p>传输方式很多我就不细讲了，可以用115或者百度网盘，也可以在官方应用商店下载ES Explorer开启局域网快传，或者直接使用U盘。</p>
+<p>传输完成后直接安装，这时按Home键还是会回到坚果自带桌面的，请进行下一步。</p>
+<h1>二、停用自带桌面</h1>
+<p>注意：在停用前请先在自带桌面的「我的」标签夹下把屏保功能关闭
+这里要用到adb指令，首先需要开启adb调试。
+打开G9S设置→系统设置（最后一项）→焦点在「系统版本」（第一项）的时候狂点OK键5下，就可以弹出adb调试开关，把它设置为开启状态；
+准备一台电脑，连接上与G9S同样的网络，保证电脑和G9S在同一个局域网内；
+打开电脑终端，输入<code>adb devices</code>，得到G9S的局域网IP地址；
+输入 <code>adb connect [投影仪IP地址]</code>，链接上投影仪终端；
+输入 <code>adb -s [投影仪IP地址] shell</code>，进入投影仪终端；
+输入<code>pm disable-user com.jmgo.launcher</code>，停用自带桌面。
+大功告成！这时坚果自带的桌面就会自动退出，系统会自动打开仅剩的一个桌面软件，也就是我们提前安装好的当贝桌面，作为投影仪默认的桌面，再也不用浪费注意力啦。</p>
 
-<section id="ga-archive_list" class="ga-section" data-title="#投影仪">
-    <ul>
-        
-        <li>
-            <h1><a target="_self" class="ga-highlight" href="/Blog-With-GitHub-Boilerplate/archives/jianguo-g9s/">坚果G9S 最简单的精简办法——更换桌面</a></h1>
-            <time class="ga-mono" datetime="2021-12-06T16:23:07-00.00">
-                2021-12-06
-            </time>
-        </li>
-        
-    </ul>
+            </div>
+        </article>
+        <div id="ga-tags">
+    
+    <span class="ga-tag">
+        <a class="ga-highlight" href="/Blog-With-GitHub-Boilerplate/tag/投影仪/">#投影仪</a>
+    </span>
+    
+    <span class="ga-tag">
+        <a class="ga-highlight" href="/Blog-With-GitHub-Boilerplate/tag/坚果投影/">#坚果投影</a>
+    </span>
+    
+</div>
+    </section>
+
+    
+<section id="ga-content_pager">
+
+    <div class="next">
+        <h3>没有了</h3>
+        <p class="yue">这是最新的文章</p>
+    </div>
+
+
+    <div class="prev">
+        <a class="ga-highlight" href="/Blog-With-GitHub-Boilerplate/archives/typography/">Hello World!</a>
+        <p class="yue">这是一篇示例文章，在这里你可以看到常用页面元素的显示效果。</p>
+    </div>
+
 </section>
 
-<section class="ga-section ga-mono" id="ga-pager">
-    
-    <span>Page 1 of 1</span>
-    
-</section>
 
+    
 
 </main>
 
