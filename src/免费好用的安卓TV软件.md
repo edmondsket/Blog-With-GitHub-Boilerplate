@@ -27,7 +27,7 @@ typora-root-url: ../src
 
 2. [**Emotn UI**](https://app.emotn.com/ui/)
 
-   ![image-20211207155538989](./images/image-20211207155538989.png)
+   ![Emotn UI](./images/image-20211207155538989.png)
 
    当贝桌面的海外版，相对当贝桌面来说功能多一点，是我正在使用的。
 
@@ -46,7 +46,7 @@ typora-root-url: ../src
 
 2. [Smart YouTube TV](https://smartyoutubetv.github.io/)
 
-   ![smartyoutubetv_screenshot_02](./images/smartyoutubetv_screenshot_02.jpg)
+   ![Smart YouTube TV](./images/smartyoutubetv_screenshot_02.jpg)
 
    其实看得比较多的还是YouTube，这款第三方YouTube软件跟原生软件基本没差，没有广告，功能全面。就是视频播放界面的设置操作有点乱。
 
@@ -56,13 +56,13 @@ typora-root-url: ../src
 
 1. [Clash for Android](https://github.com/Kr328/ClashForAndroid/releases)
 
-   ![download](./images/download.png)
+   ![Clash](./images/download.png)
 
    没什么好讲的。各机顶盒型号不尽相同，下载universal版本的基本上都能安装。进行初始配置的时候会需要用到鼠标。
 
 2. [悟空遥控器](http://app.shafa.com/apk/wukongyaokongqi.html)
 
-   ![img201602221454080_info545X307](./images/img201602221454080_info545X307-8864698.jpg)
+   ![悟空遥控器](./images/img201602221454080_info545X307-8864698.jpg)
 
    没有鼠标或者没买飞鼠遥控的可以用一下。主要是可以直接传输手机上复制的内容，比较方便。
 
@@ -70,13 +70,13 @@ typora-root-url: ../src
 
 3. [浏览器Puffin TV Browser for Android TV](https://puffin-tv.en.aptoide.com/app)
 
-   ![a23e6ebec7a8c22fcb418bd11f501595_screen](./images/a23e6ebec7a8c22fcb418bd11f501595_screen.png)
+   ![Puffin TV Browser](./images/a23e6ebec7a8c22fcb418bd11f501595_screen.png)
 
    有时候会用到浏览器传输东西，这个浏览器是专门为安卓电视系统设计的，遥控器就可以控制所有按钮，在网页内播放视频的时候视频控件也是适配遥控器的。
 
 4. [应用商城Aptoide](https://en.aptoide.com/)
 
-   ![best-android-tv-apps-aptoide-tv.jpg](./images/best-android-tv-apps-aptoide-tv.jpg.webp)
+   ![Aptoide](./images/best-android-tv-apps-aptoide-tv.jpg.webp)
 
    收集了比较多的安卓tv软件，上述大部分软件都能直接在这里下载安装。
 
@@ -88,7 +88,7 @@ typora-root-url: ../src
 
 6. [VLC Media Player](http://www.videolan.org/vlc/download-android.html)
 
-   ![MTI1ZL3QvMjEzYmM0L2YvODUweDAvaHR0cHM6Ly93d3cudGVjaHJpdHVhbC5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMTgvMDcvNS1hbWF6aW5nLWFuZHJvaWQtdHYtYXBwc18wNC5qcGc](./images/MTI1ZL3QvMjEzYmM0L2YvODUweDAvaHR0cHM6Ly93d3cudGVjaHJpdHVhbC5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMTgvMDcvNS1hbWF6aW5nLWFuZHJvaWQtdHYtYXBwc18wNC5qcGc.jpg)
+   ![VLC](./images/MTI1ZL3QvMjEzYmM0L2YvODUweDAvaHR0cHM6Ly93d3cudGVjaHJpdHVhbC5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMTgvMDcvNS1hbWF6aW5nLWFuZHJvaWQtdHYtYXBwc18wNC5qcGc.jpg)
 
    一个完全免费开源的全平台视频播放器，功能非常强大，可以播放本地、串流、局域网的视频。我本地视频基本用Plex来架设服务器并观看，所以用的比较少。
 
