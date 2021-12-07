@@ -11,7 +11,6 @@ tags:
   - 投影仪
   - 坚果投影
 excerpt: 通过adb冻结自带桌面，并默认使用当贝桌面。
-typora-root-url: ../../blog
 ---
 ![g9s](./images/g9s.jpeg)
 
